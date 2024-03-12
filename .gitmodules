@@ -1,0 +1,12 @@
+[submodule "alpine-rootfs"]
+	path = alpine-rootfs
+	url = git@github.com:ubesluttsom/alpine-rootfs.git
+[submodule "linux"]
+	path = linux
+	url = git@github.com:ubesluttsom/linux.git
+[submodule "vm-scripts"]
+	path = vm-scripts
+	url = git@github.com:ubesluttsom/vm-scripts.git
+[submodule "pep-dna"]
+	path = pep-dna
+	url = git@github.com:ubesluttsom/pep-dna.git

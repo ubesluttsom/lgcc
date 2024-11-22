@@ -4,9 +4,17 @@
 [submodule "linux"]
 	path = linux
 	url = git@github.com:ubesluttsom/linux.git
+	branch = lgcc-wip
 [submodule "vm-scripts"]
 	path = vm-scripts
 	url = git@github.com:ubesluttsom/vm-scripts.git
 [submodule "pep-dna"]
 	path = pep-dna
 	url = git@github.com:ubesluttsom/pep-dna.git
+	branch = lgcc-wip
+[submodule "test-rig"]
+	path = test-rig
+	url = git@github.com:ubesluttsom/thesis-test-rig.git
+[submodule "data-analysis"]
+	path = data-analysis
+	url = git@github.com:ubesluttsom/thesis-data-analysis.git

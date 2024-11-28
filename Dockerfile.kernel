@@ -1,0 +1,21 @@
+FROM ubuntu:latest
+
+RUN apt update && \
+    apt install -y \
+        build-essential \
+        clang \
+        llvm \
+        lld \
+        libncurses-dev \
+        bison \
+        flex \
+        libssl-dev \
+        libelf-dev \
+        bc \
+        kmod
+
+RUN mkdir -p /usr/src/
+COPY readme-kernel-build.md /usr/src/
+RUN echo 'cat "/usr/src/readme-kernel-build.md"' >> /root/.bashrc
+
+WORKDIR /usr/src/linux

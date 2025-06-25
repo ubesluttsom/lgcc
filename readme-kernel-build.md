@@ -12,6 +12,8 @@ This is a container to build the Linux kernel with LGCC. Run it using
    `./scripts/kconfig/merge_config.sh .config lgcc_config`.
 1. Compile the kernel using `make LLVM=1 CC=clang`.
 1. Take a coffee break while you wait ...
+1. Install modules to a temporary directory:
+   `make LLVM=1 CC=clang modules_install INSTALL_MOD_PATH=modules/`.
 
 ## Building the PEP-DNA kernel module
 

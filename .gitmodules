@@ -18,3 +18,6 @@
 [submodule "data-analysis"]
 	path = data-analysis
 	url = git@github.com:ubesluttsom/thesis-data-analysis.git
+[submodule "thesis-presentation"]
+	path = thesis-presentation
+	url = git@github.com:ubesluttsom/thesis-presentation.git
